@@ -1,0 +1,168 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c07ebc;
+}
+
+.titulo-grande {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 90px !important;
+  color: #4c2b6a;
+  text-align: center; 
+  font-weight: bold; 
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+
+
+.subtítol {
+  color: #31243c;
+  font-family: fantasy;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+
+/* Línees divisores */
+.linea {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.seccion {
+  text-align: center;
+
+}
+
+.barra-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 110px;
+  height: 100%;
+  background-color: #222;
+  padding-top: 10px;
+
+}
+
+
+
+.menu-item {
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+
+}
+
+.menu-item:hover, .activo {
+  background-color: #555;
+
+}
+
+
+.icono {
+  font-size: 24px;
+
+}
+
+
+.contenido {
+  margin-left: 120px;
+  padding: 20px;
+  flex: 1;
+  background-color: #c07ebc; 
+
+}
+
+.imagen-central {
+  display: block;
+  margin: 0 auto;
+
+}
+
+.seccion {
+  padding: 64px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.titulo-grande {
+  font-size: 40px;
+  color: #4c2b6a;
+  text-align: center;
+
+}
+
+
+
+.linea {
+  margin: 0 auto;
+  border: 1px solid #7849a3;
+}
+
+
+.tarjeta {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #754a81;
+  border-radius: 15px;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 10px 0; 
+  text-align: center;
+}
+
+
+.avatar {
+  border-radius: 15px;
+}
+
+.texto {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.imatges {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columna {
+  flex: 50%;
+  padding: 10px;
+}
+
+.columna img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.contacto {
+  text-align: center;
+}
+
+.contacto-item {
+  margin: 10px 0;
+}
+
+.boton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(73, 15, 70);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.boton:hover {
+  background-color: #d3d3d3;
+}
